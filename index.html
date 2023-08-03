@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+        .text {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 260px;
+    width: 200px;
+    box-shadow: 10px 10px 5px 0px rgba(81,81,81,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(81,81,81,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(81,81,81,0.75);
+    position: relative;
+    border-radius: 5%;
+    
+
+}
+.profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid;
+    
+
+}
+.picture > img {
+width: 180px;
+}
+.user {
+    text-align: center;
+}
+.nine {
+    width: 45px;
+    height: 45px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -8px;
+    top: -15px;
+}
+.mark {
+    color: black;
+    position: absolute;
+    top: -30px;
+    left: 5px;
+    font-size: 25px;
+}
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="text">
+        <div class="nine">
+            <p>9</p>
+        </div>
+        <div class="mark">
+            <p>x</p>
+        </div>    
+        <div class="profile">
+            <div class="picture">
+                
+                <img src="https://www.svgrepo.com/show/429787/human-man-10.svg" alt="profile">
+            </div>
+            <div class="user">
+                <h1>A. Rudiger</h1>
+            </div>
+        </div>
+        </div>
+
+</body>
+</html>
